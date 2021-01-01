@@ -16,6 +16,7 @@ dependencies {
     implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.5.Final'
     implementation group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.4.5.Final'
     implementation group: 'org.flywaydb', name: 'flyway-core', version: '6.3.3'
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.5'
     implementation group: 'com.h2database', name: 'h2', version: '1.4.200'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.2.6.RELEASE'
     compileOnly group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '2.2.6.RELEASE'
